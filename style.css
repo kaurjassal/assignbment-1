@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #f3cd24;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+img{
+    max-width: 100%;
+    width: 300px;
+    border: solid 1px #f3cd24;
+}
+
+
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+main{
+    padding-top: 30px;
+    margin-bottom: auto;
+}
+
+footer{
+    padding: 30px 0;
+    background-color: #f3cd24;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.github-icon i{
+    font-size: 2rem;
+    color: #13f11e;
+    padding: 1rem;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+}
